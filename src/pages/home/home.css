@@ -1,0 +1,17 @@
+.homepage{
+    position: sticky;
+    top: 0;
+    z-index: -1;
+}
+
+.cover-img{
+    background: url(../../assets/background.jpeg) no-repeat center center/cover;
+    text-align: center;
+    height: calc(100vh - 100px);
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cover-img .main-heading{
+    font-size: var(--fs-500);
+}
